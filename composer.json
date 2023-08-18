@@ -7,8 +7,14 @@
         }
     },
     "require": {
-        "spatie/laravel-mailcoach": "^5.0"
+        "spatie/laravel-mailcoach": "dev-main"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/TappNetwork/laravel-mailcoach"
+        }
+    ],
     "extra": {
         "statamic": {
             "name": "Statamic Mailcoach",
